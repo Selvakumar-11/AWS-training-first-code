@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/get_response"
+API_URL = "http://54.242.78.94:8000/get_response"
 
 st.set_page_config(page_title="Chatbot UI", page_icon="🤖")
 st.title("🤖 Chatbot")
